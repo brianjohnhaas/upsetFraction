@@ -22,3 +22,6 @@ upset_fraction_full(
   set_col = "Genre",
   top_n_intersections = 15
 )
+```
+
+<img src="https://private-user-images.githubusercontent.com/7542111/489174540-75bac941-c822-4168-8f0a-26a234909d98.png" />
