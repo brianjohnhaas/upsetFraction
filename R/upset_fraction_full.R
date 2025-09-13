@@ -1,3 +1,14 @@
+#' @importFrom dplyr select distinct mutate arrange summarise group_by filter left_join n row_number slice_head pull rename
+#' @importFrom tidyr pivot_longer pivot_wider
+#' @importFrom rlang sym
+#' @importFrom ggplot2 ggplot aes geom_col geom_point geom_text geom_segment expansion 
+#' @importFrom ggplot2 scale_x_continuous scale_y_continuous scale_y_discrete scale_x_reverse
+#' @importFrom ggplot2 scale_color_viridis_c scale_size_continuous labs theme_minimal theme
+#' @importFrom ggplot2 element_blank theme_void
+#' @importFrom ggplot2 guides guide_legend
+#' @importFrom cowplot plot_grid get_legend
+#' @importFrom dplyr %>%
+NULL
 #' upset_fraction_fullAOA
 #'
 #' Create an UpSet-style visualization showing how set membership 
