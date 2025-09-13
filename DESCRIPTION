@@ -1,0 +1,14 @@
+Package: upsetFraction
+Title: UpSet-Style Plot with Fraction Encoding
+Version: 0.1.0
+Authors@R: person("Your", "Name", email = "you@example.com", role = c("aut", "cre"))
+Description: Create UpSet-style plots where set membership fractions are encoded by point size and color.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    tidyr,
+    ggplot2,
+    cowplot
+RoxygenNote: 7.3.2
