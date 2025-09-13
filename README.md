@@ -9,3 +9,16 @@ Written for me in collaboration with chatgpt and claude
 ```r
 # install.packages("devtools")
 devtools::install_github("brianjohnhaas/upsetFraction")
+
+
+# Example using included dataset
+library(upsetFraction)
+
+data(movies_demo)
+
+upset_fraction_full(
+  movies_demo,
+  id_col = "MovieID",
+  set_col = "Genre",
+  top_n_intersections = 15
+)
